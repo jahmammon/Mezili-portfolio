@@ -67,7 +67,10 @@ export default function MissionInterface() {
   };
 
   return (
-    <section className="relative py-32 px-6 overflow-hidden">
+    <section
+  id="mission"
+  className="relative py-32 px-6 overflow-hidden"
+>
       <div className="max-w-5xl mx-auto">
 
         <div className="max-w-3xl space-y-5 mb-16">
