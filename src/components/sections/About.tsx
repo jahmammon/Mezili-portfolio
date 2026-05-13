@@ -11,35 +11,49 @@ export default function About() {
         <div className="space-y-8">
           <div className="space-y-4">
             <span className="text-emerald-primary text-xs font-mono uppercase tracking-[0.3em]">
-              Identity Profile
+              Operational Identity
             </span>
 
-            <h2 className="text-4xl md:text-6xl font-bold tracking-tight leading-none">
-              Mezili Amine
+            <h2 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight">
+              Engineering Systems, Humanitarian Operations & Strategic Coordination
             </h2>
 
             <p className="text-gray-400 leading-relaxed text-sm md:text-base max-w-xl">
-              Industrial engineering technician, operational coordinator,
-              humanitarian field organizer, and digital systems enthusiast
-              based in Algeria. Specialized in technical operations,
-              volunteer medical caravan coordination, and strategic
-              communication systems.
+              Mezili Amine is an Algerian operational coordinator and industrial engineering technician specialized in humanitarian logistics, industrial systems, and technical field operations.
+            </p>
+
+            <p className="text-gray-500 leading-relaxed text-sm md:text-base max-w-xl">
+              His experience spans large-scale volunteer medical caravans across remote regions of Algeria, industrial maintenance missions, IT support, and communication management for small businesses. Alongside operational engineering work, he contributes to youth engagement initiatives and digital awareness projects focused on responsible technology use and community empowerment.
             </p>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-2 gap-6 pt-6">
             <div className="border border-white/10 rounded-xl p-5 bg-white/[0.02]">
-              <p className="text-3xl font-bold text-white">10K+</p>
+              <p className="text-3xl font-bold text-white">50+</p>
               <p className="text-xs font-mono text-gray-500 uppercase mt-2">
-                Beneficiaries Reached
+                Humanitarian Missions
               </p>
             </div>
 
             <div className="border border-white/10 rounded-xl p-5 bg-white/[0.02]">
-              <p className="text-3xl font-bold text-white">5</p>
+              <p className="text-3xl font-bold text-white">20+</p>
               <p className="text-xs font-mono text-gray-500 uppercase mt-2">
-                National Missions
+                Industrial Operations
+              </p>
+            </div>
+
+            <div className="border border-white/10 rounded-xl p-5 bg-white/[0.02]">
+              <p className="text-3xl font-bold text-white">20+</p>
+              <p className="text-xs font-mono text-gray-500 uppercase mt-2">
+                Business Campaigns
+              </p>
+            </div>
+
+            <div className="border border-white/10 rounded-xl p-5 bg-white/[0.02]">
+              <p className="text-3xl font-bold text-white">10K+</p>
+              <p className="text-xs font-mono text-gray-500 uppercase mt-2">
+                Citizens Assisted
               </p>
             </div>
           </div>
