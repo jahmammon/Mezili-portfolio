@@ -1,40 +1,4 @@
-"use client";
-
-import { useState, useEffect, useRef, useCallback } from "react";
-
-import { m, AnimatePresence } from "framer-motion";
-
-import {
-  FileText,
-    Send,
-      Terminal,
-      } from "lucide-react";
-
-      /**
-       * CTRL + K Command Palette
-        */
-        export default function CommandPalette() {
-          const [isOpen, setIsOpen] = useState(false);
-            const [query, setQuery] = useState("");
-
-              const inputRef = useRef<HTMLInputElement>(null);
-
-                const togglePalette = useCallback(() => {
-                    setIsOpen((prev) => !prev);
-                        setQuery("");
-                          }, []);
-
-                            useEffect(() => {
-                                const handleKeyDown = (e: KeyboardEvent) => {
-                                      if (e.key === "k" && (e.ctrlKey || e.metaKey)) {
-                                              e.preventDefault();
-                                                      togglePalette();
-                                                            }
-
-                                                                  if (e.key === "Escape") {
-                                                                          setIsOpen(false);
-                                                                                }
-                                                                                    };
+                                                                                   };
 
                                                                                         window.addEventListener("keydown", handleKeyDown);
 
